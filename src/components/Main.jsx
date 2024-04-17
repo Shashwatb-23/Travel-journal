@@ -1,18 +1,20 @@
-export default function Main(){
+/* eslint-disable react/prop-types */
+export default function Main(props){
     return (
         <div className="main">
             <div className="container " >
                 <div className="content">
-                    <img src="/images/Great_Wall_of_China.jpg" alt="great-wall-of-china" className="content-images"/>
+                    <img src={`/images/${props.img}`}  className="content-images"/>
                 <div className="info">
-                        <u>GREAT WALL OF CHINA</u> 
+                        <u>{props.name}</u> 
+                        <a href={`${props.location}`}>View on Google Maps</a>
                         <p className="content-info">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem id explicabo distinctio quae veniam. Dignissimos, voluptas est. Nisi itaque, possimus, architecto magni nam dolorum deleniti nostrum earum molestias minima, ipsa ut vero beatae quae! Corporis eius earum aliquam ipsam ad, sint commodi quibusdam perferendis dolor natus libero aut dignissimos eveniet, similique expedita non. Cupiditate accusantium necessitatibus ex laboriosam fugiat dolorem quam magnam, animi itaque sequi veniam nulla. Totam laborum unde quibusdam suscipit omnis eum ad reprehenderit repudiandae voluptate id debitis atque ratione iure rem repellendus quis laboriosam odit magni, accusamus pariatur, a molestiae quidem. Eveniet incidunt nulla temporibus distinctio dolores.
+                            {props.description}
                         </p>
                 </div>
                 </div>
 
-
+{/* 
                 <div className="content">
                     <img src="/images/new-york.jpeg" alt="new-york" className="content-images"/>
                 <div className="info">
@@ -109,7 +111,7 @@ export default function Main(){
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem id explicabo distinctio quae veniam. Dignissimos, voluptas est. Nisi itaque, possimus, architecto magni nam dolorum deleniti nostrum earum molestias minima, ipsa ut vero beatae quae! Corporis eius earum aliquam ipsam ad, sint commodi quibusdam perferendis dolor natus libero aut dignissimos eveniet, similique expedita non. Cupiditate accusantium necessitatibus ex laboriosam fugiat dolorem quam magnam, animi itaque sequi veniam nulla. Totam laborum unde quibusdam suscipit omnis eum ad reprehenderit repudiandae voluptate id debitis atque ratione iure rem repellendus quis laboriosam odit magni, accusamus pariatur, a molestiae quidem. Eveniet incidunt nulla temporibus distinctio dolores.
                         </p>
                 </div>
-                </div> 
+                </div>  */}
 
             </div>
         </div>
