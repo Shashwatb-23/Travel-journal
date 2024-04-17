@@ -3,7 +3,7 @@ export default function Header(){
         <div className="head">
             <img src="public/images/earth.icon.png" alt="earth-icon" className="header-logo"/>
             
-                <p>My Journal Travel</p>
+                <p className="font-header">My Journal Travel</p>
         </div>
     )
 }

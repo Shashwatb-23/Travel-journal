@@ -1,3 +1,29 @@
+/* RESEt CSS */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Oxygen", sans-serif;
+  background: #2F4451;
+  color: #FFFFFF;
+}
+
+
 /* UTILS */
 
+/* .flex{
 
+} */
+
+u{
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.content-info{
+  padding-top: 15px;
+}

@@ -1,11 +1,4 @@
-/* RESEt CSS */
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
-body{
-  margin: 0px;
-  padding: 0px;
-  font-family: "Oxygen", sans-serif;
-}
 
 /* HEADER */
 
@@ -18,11 +11,37 @@ body{
   justify-content: center;
   align-items: center;
   padding: 12px;
-  background-color: #ACC8E5;
-  color: #112A46;
+  background-color: aliceblue;
 }
 
-p{
+.font-header{
   margin: 0px;
   font-weight: 700;
+  color: #1c2226;
 }
+
+/* MAIN */
+
+.content{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.container{
+  margin: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.content-images{
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+
